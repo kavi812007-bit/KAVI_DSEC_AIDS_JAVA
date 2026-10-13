@@ -1,0 +1,69 @@
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("college:dsec");
+        System.out.println("dept:aids");
+        System.out.println("course:java");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("java is a simple java is powerful");
+        System.out.println("dept:aids");
+        System.out.println("course:java");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("name\t:arun");
+        System.out.println("dept\t:aids");
+        System.out.println("course\t:java");
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("name:=kavi");
+        System.out.println("age=85");
+        System.out.println("grade=a");
+        
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        String name = "Priya";
+        int age = 19;
+        char grade = 'A';
+        boolean placementStatus = false;
+        System.out.println("name=+priya");
+        System.out.println("age=+19");
+        System.out.println("grade=+a");
+        
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        String name = "Priya";
+        int id = 66;
+        double price = 800.00;
+        System.out.println("name=+priya");
+        System.out.println("age=+66");
+        System.out.println("grade=+80");
+        
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter city:");
+        String city=sc.next();
+        System.out.println("enter age:");
+        int age=sc.nextInt();
+        System.out.println("city=kalai");
+        System.out.println("age=80");
+    }
+}
