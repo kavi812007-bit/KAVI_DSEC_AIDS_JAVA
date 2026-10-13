@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+ public class Main {
+    public static void main(String[] args) {
+    int a=13;
+    int b=13;
+    
+    System.out.println((a==b?"equal":(a>b?a:b)));;
+    }
+}
