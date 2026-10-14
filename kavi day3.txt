@@ -1,0 +1,16 @@
+q1
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc =new Scanner(System.in);
+        int balance=Sc.nextInt();
+        if(balance<1000){
+            System.out.println("low balance alert");
+        }
+        System.out.println("updated");
+    }
+}    
+500
+low balance alert
+updated
