@@ -1,0 +1,21 @@
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int years = sc.nextInt();
+
+        if (years < 0)
+            System.out.println("Invalid Experience");
+        else if (years == 0)
+            System.out.println("Fresher");
+        else if (years <= 2)
+            System.out.println("Junior");
+        else if (years <= 5)
+            System.out.println("Intermediate");
+        else
+            System.out.println("Senior");
+    }
+}
