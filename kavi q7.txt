@@ -1,0 +1,26 @@
+q7  
+
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc = new Scanner(System.in);
+
+        double mark= Sc.nextDouble();
+
+        if (mark < 0|| mark >100) {
+            System.out.println("invalid");
+        } else if (mark >= 90) {
+            System.out.println(" GRADE A");
+        } else if (mark >= 75) {
+            System.out.println("GRADE B");
+        } else if (mark >= 60)  {
+            System.out.println("GRADE C");
+        } else if (mark >= 35)  {
+            System.out.println("GRADE D");
+        } else if (mark<=35)
+            System.out.println("fail");
+        
+            
+    }
+}
+95
+ GRADE A
