@@ -1,0 +1,35 @@
+q3
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc =new Scanner(System.in);
+        int temp = Sc.nextInt();
+        if(temp>=30){
+            System.out.println("warm day");
+        }
+        else
+            System.out.println("cool day");
+       
+    }
+}   
+ 20
+cool day
+
+
+q4
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc =new Scanner(System.in);
+        int whether= Sc.nextInt();
+        if( whether %10==7){
+            System.out.println("Lucky ending");
+        }
+        else
+            System.out.println("not lucky ending");
+       
+    }
+}    
+17
+Lucky ending
+

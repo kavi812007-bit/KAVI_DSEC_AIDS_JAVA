@@ -1,0 +1,19 @@
+q5
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc =new Scanner(System.in);
+        int shaopping = Sc.nextInt();
+        if(  shaopping<500){
+        
+            System.out.println("reusable bag available 500 rs");
+        }
+        else
+            System.out.println("not reusable bag availablel");
+       
+    }
+}    
+499
+reusable bag available 500 rs
+
