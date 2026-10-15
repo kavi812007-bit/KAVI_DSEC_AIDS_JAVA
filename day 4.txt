@@ -1,0 +1,15 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int overdew = sc.nextInt();
+        if(overdew>0){
+            System.out.println("find applied 10 rs perday");
+        }
+        
+        System.out.println("updated");
+    }
+}
+4
+find applied 10 rs perday
+updated
