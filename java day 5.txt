@@ -1,0 +1,96 @@
+26/10/26 prime number
+
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int count = 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                count++;
+            }
+        }
+
+        if (count == 2) {
+            System.out.println("prime number");
+        } else {
+            System.out.println("not prime number");
+        }
+
+        sc.close();
+    }
+}
+
+6
+not prime number
+
+
+ex 2 perfect number
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int sum= 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                sum=sum+i;
+            }
+        }
+
+        if (sum == n) {
+            System.out.println("perfect number");
+        } else {
+            System.out.println("not perfect number");
+        }
+
+        sc.close();
+    }
+}
+3
+not perfect number
+  
+
+
+
+EX 3 ARMSTORNG NUMVER
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int temp = n;
+        int sum = 0;
+
+        while (temp > 0) {
+            int digit = temp % 10;
+            sum = sum + digit * digit;
+            temp = temp / 10;
+        }
+
+        if (sum == n)
+            System.out.println("Armstrong number");
+        else
+            System.out.println("not Armstrong number");
+
+        sc.close();
+    }
+}
+
+
+153
+not Armstrong number
+
+
+
