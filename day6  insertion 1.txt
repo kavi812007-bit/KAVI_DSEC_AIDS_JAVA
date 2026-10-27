@@ -40,3 +40,36 @@ class Main {
         sc.close();
     }
 }
+
+Enter value:
+20
+Enter index (0 to 4):
+2
+10 20 20 30 40 
+
+
+update 2
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a[] = {10,20,30,40};
+        a[1] = 99;
+        System.out.println("Enter value:");
+        int value = sc.nextInt();
+        for(int i=0;i<a.length;i++){
+         System.out.println(a[i]+" ");
+        }
+    }
+}
+        
+        Enter value:
+3
+10 
+99 
+30 
+40 
+  
