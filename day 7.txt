@@ -1,0 +1,46 @@
+ day 7
+bubble sort 1
+ public class Main {
+    public static void main(String[] args) {
+        int a[] = {40,10,30,20};
+        for (int i = 0; i < a.length -1; i++){
+            for (int j = 0; j < a.length -1 -i; j++){
+            if ( a[j] > a[j + 1]){
+                int temp = a[j];
+                a[j] = a[j+ 1];
+                a[j + 1] = temp;
+            }
+            }
+        }
+            
+            for (int i = 0; i< a.length; i++){
+                System.out.print(a[i]+" ");
+    }
+}
+}
+
+10 20 30 40 
+
+selection sort 2
+ public class Main {
+    public static void main(String[] args) {
+        int a[] = {40,10,30,20};
+        for (int i = 0; i < a.length -1; i++){
+            int min =i;
+            for (int j = i + 1 ; j < a.length ; j++){
+            if ( a[j] < a[min]){
+                min = j ;
+            }
+            }
+                int temp = a[i];
+                a[i] = a[min];
+                a[min] = temp;
+        }
+        
+            
+            for (int i = 0; i< a.length; i++){
+                System.out.print(a[i]+" ");
+    }
+}
+}
+10 20 30 40 

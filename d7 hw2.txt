@@ -1,0 +1,43 @@
+d7 hw2
+
+public class Main {
+    public static void main(String[] args) {
+        int a[] = {10, 20, 30, 40};
+
+        int temp = a[a.length - 1];
+
+        for (int i = a.length - 1; i > 0; i--) {
+            a[i] = a[i - 1];
+        }
+
+        a[0] = temp;
+
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+    }
+}
+40 10 20 30
+hw3 find missind value
+
+
+public class Main {
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4, 6, 7, 8, 9, 10};
+
+        int n = 10;
+        int sum = n * (n + 1) / 2;
+        int actualSum = 0;
+
+        for (int i = 0; i < a.length; i++) {
+            actualSum = actualSum + a[i];
+        }
+
+        int missing = sum - actualSum;
+
+        System.out.println("Missing number: " + missing);
+    }
+}
+
+895 ms
+Missing number: 5
